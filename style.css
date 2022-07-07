@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 65px;
+}
+section{
+    margin-bottom: 100px;
+}
+#header{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(10, 18, 58, 0.973)),
+    url('photos/donation9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+   
+.header-text{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: aliceblue;
+}
+.header-text p{
+    margin-bottom: 40px;
+}
+.buttton{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(136, 86, 86), rgb(255, 0, 0));
+    color: aliceblue;
+    font-size: large;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text p{
+ color: #888;
+}
+.amount{
+    display: flex;
+    width: auto;
+}
+.tk{
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.tk span{
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: 600;    
+    
+    color: #888;
+    
+}
+
+.tk p{
+    color: rgb(238, 12, 12);
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: 600;
+    top: 50%;
+    transform: translateY(50%);    
+}
+.sel{
+    border: 2px solid red;
+    background-color: rgb(252, 221, 210);
+}
+
+.your-amount{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.your-amount input{
+    margin-bottom: 20px;
+    font-size: 20px;
+    border:none;
+    padding: 10px 10px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(43, 41, 41);
+    border: none;
+    height: 1px;
+    margin-bottom: 40px;
+}
+
+.plan-text{
+    width: 100%;
+    text-align: center;
+
+}
+.our-plans{
+    display: flex;
+    width: 980px;
+margin: auto;
+    height: 350px;
+    
+}
+.our-plans img{
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+}
+.our-plans h3{
+    font-size: 20px;
+    padding:20px 0px;
+}
+.our-plans p{
+    color: #888;
+}
+
+.foods{
+    background-color: rgba(129, 204, 154, 0.918);
+    padding: 10px;
+    width: 100%;
+    
+}
+.healthcare{
+    background-color: rgb(255, 218, 201);
+    margin: 0% 2%;
+    padding: 10px;
+    width: 100%;
+}
+.education{
+    background-color: rgb(205, 255, 222);
+    padding: 10px;
+    width: 100%;
+    
+}
+.they-need-us{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.help{
+    display: flex;
+    width: 100%;
+    
+}
+.help-text{
+    height: 400px;
+    text-align: justify;
+    padding: 40px;
+}
+.help-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.help-text p{
+    color: #888;
+    margin-bottom: 40px;
+}
+.help img{
+    margin: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+.subscribe{
+    width: 100%;
+    text-align: center;
+}
+.input{
+    width: 750px;
+    background-color: antiquewhite;
+    margin: auto;
+    height: 200px;
+    font-weight: 500;
+}
+.input input{
+    position: relative;
+    transform: translateY(50%);
+    padding: 20px 50px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    margin-top: 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.input button{
+    position: relative;
+    transform: translateY(50%);
+    padding: 20px 50px;
+    border: none;
+    background-color: rgb(255, 80, 80);
+    margin-top: 40px;
+    border-radius: 4px;
+    margin-left: -10px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+footer{
+    background-color: black;
+    padding:10px;
+}
+.f-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 131, 131, 0.986);
+}
+.f-text span{
+    color: white;
+}
