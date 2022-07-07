@@ -17,7 +17,7 @@ section{
     url('photos/donation9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
 
 }
    
@@ -39,7 +39,7 @@ section{
     color: aliceblue;
     font-size: large;
     letter-spacing: 1px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .text{
     text-align: center;
